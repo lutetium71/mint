@@ -1,7 +1,7 @@
 node_modules/
 .anchor
 **/*.rs.bk
-#build/
+build/
 rust/test/nft-candy-machine.js
 dist/
 lib/
@@ -16,8 +16,8 @@ docs/lockup-ui/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.css
-*.css.map
+#*.css
+#*.css.map
 !js/packages/metaplex/src/fonts/fonts.css
 !js/packages/metaplex/src/utils/globals.css
 js/.eslintcache
